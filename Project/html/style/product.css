@@ -1,0 +1,371 @@
+header {
+    border-radius: 2px;
+    box-shadow: 0px 1px 6px #999;
+}
+
+footer {
+    border-radius: 2px;
+    box-shadow: 1px 0px 3px #999;
+}
+
+.breadcrumb {
+    background-color: white;
+}
+
+.breadcrumb-item.active {
+    color: #151e1a;
+    font-family: 'Quicksand', sans-serif;
+}
+
+li>a {
+    font-family: 'Quicksand', sans-serif;
+    color: #40544b;
+}
+
+.breadcrumb a:hover {
+    color: #40544b;
+    text-decoration: none;
+}
+
+h3.mt-0 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#favorites {
+    color: #40544b;
+}
+
+#product-images {
+    width: 40%
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23151e1a' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23151e1a' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators li {
+    background-color: #151e1a
+}
+
+.carousel-indicators .active {
+    background-color: #9effd5;
+}
+
+.carousel-inner img {
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.media-body>h3 {
+    width: 75%;
+    font-size: 35px;
+    border-bottom: 1px solid #151e1a;
+    padding-bottom: 15px;
+    color: #40544b;
+}
+
+p#product-price {
+    font-size: 25px;
+    margin-top: 15px;
+    color: #40544b;
+}
+
+input#quantity {
+    height: 46.5px;
+    line-height: 47px;
+    font-family: 'Quicksand', sans-serif;
+    border: 1px solid #40544b;
+    text-align: center;
+    text-decoration: none;
+    min-width: 55px;
+    width: 55px;
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+input.AddtoCart {
+    background-color: #40544b;
+    font-family: 'Quicksand', sans-serif;
+    border: 1.5px solid #40544b;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 46px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 25px;
+    transition-duration: 0.4s;
+}
+
+input.AddtoCart:hover {
+    background-color: #f6fffb;
+    font-weight: 700;
+    border: 1.5px solid #40544b;
+    color: #40544b;
+}
+
+input.AddToCart {
+    background-color: #f6fffb;
+    font-family: 'Quicksand', sans-serif;
+    border: 1.5px solid #40544b;
+    color: #40544b;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 25px;
+    transition-duration: 0.4s;
+}
+
+input.AddToCart:hover {
+    background-color: #40544b;
+    font-weight: normal;
+    border: 2px solid #40544b;
+    color: white;
+}
+
+.product-add label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #40544b;
+}
+
+form#AddToCartForm.product_form {
+    width: 75%;
+    border-bottom: 1px solid #151e1a;
+    padding-bottom: 25px;
+}
+
+div.btn-group {
+    display: block;
+    margin-top: 15px;
+}
+
+button.btn.btn-secondary {
+    background-color: #f6fffb;
+    font-family: 'Quicksand', sans-serif;
+    border: 1.5px solid #40544b;
+    color: #40544b;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.dropdown-menu {
+    width: 200px;
+}
+
+.show>.btn-secondary.dropdown-toggle {
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    border: 1.5px solid #40544b;
+    color: #40544b;
+}
+
+
+.dropdown-item #option1 {
+    background-color: #654321;
+}
+
+.dropdown-item #option2 {
+    background-color: #000000;
+}
+
+.dropdown-item #option3 {
+    background-color: #000080;
+}
+
+div.product-add {
+    margin-top: 15px;
+}
+
+div.dropdown {
+    margin-top: 15px;
+}
+
+div#informations {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.list-group-flush .list-group-item {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li.list-group-item>h6 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: #40544b;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.list-group-item.pt-4 p:first-of-type {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li.list-group-item p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.list-group-item {
+    border: 1px solid #151e1a;
+}
+
+.list-group-item form#makeReview {
+    padding-bottom: 15px;
+    font-family: 'Quicksand', sans-serif;
+    color: #40544b;
+}
+
+.list-group-item form#makeReview div {
+    padding: 7.5px;
+}
+
+.list-group-item form#makeReview h6 {
+    font-size: 18px;
+}
+
+.list-group-item form#makeReview .custom-range {
+    width: 30vh;
+}
+
+.list-group-item form#makeReview .custom-range::-webkit-slider-thumb {
+    background-color: #40544b;
+}
+
+.list-group-item form#makeReview .custom-range::-moz-range-thumb {
+    background-color: #40544b;
+}
+
+.list-group-item form#makeReview input[name="Submit"] {
+    background-color: #f6fffb;
+    font-family: 'Quicksand', sans-serif;
+    border: 1.5px solid #40544b;
+    color: #40544b;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 33px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 25px;
+    transition-duration: 0.4s;
+}
+
+.list-group-item form#makeReview input[name="Submit"]:hover {
+    background-color: #40544b;
+    border: 1.5px solid #40544b;
+    color: white;
+    font-weight: normal;
+}
+
+.list-group-item .pontuation, .list-group-item h5 {
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    color: #151e1a;
+}
+
+.list-group-item .pontuation {
+    padding-left: 10px;
+}
+
+.list-group-item .pontuation label {
+    font-family: 'Quicksand', sans-serif;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.list-group-item .pontuation img {
+    width: 2.5vh;
+    height: auto;
+    vertical-align: unset;
+}
+
+.list-group-item h5.author {
+    float: right;
+}
+
+.mt-3.container h6 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: #40544b;
+    font-size: 22px;
+}
+
+.mt-3.container h5 {
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 13px;
+    padding-left: 13px;
+    padding-right: 13px;
+    text-align: center;
+    color: #40544b;
+    font-size: 18px;
+}
+
+.mt-3.container span {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: #40544b;
+    font-size: 16px;
+}
+
+.fas.fa-heart {
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.fas.fa-heart:hover {
+    font-weight: 900;
+}
+
+#report:hover {
+    color: #40544b;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .media.pl-5, .media-body.pl-3 {
+        display: block;
+        padding-left: 0 !important;
+    }
+
+    #product-images, .product-title, .product_form {
+        margin: auto auto;
+    }
+
+    div#informations {
+        width: 100% !important;
+    }
+
+}

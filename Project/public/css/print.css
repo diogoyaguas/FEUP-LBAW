@@ -1,0 +1,7 @@
+@media print {
+   
+    .nav, .footer, .text-secondary, .featuredproducts, #makeReview, #breadcrumb{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,106 @@
+.breadcrumb {
+    background-color: white;
+}
+
+.breadcrumb-item.active {
+    color: #151e1a;
+    font-family: 'Quicksand', sans-serif;
+}
+
+li>a {
+    font-family: 'Quicksand', sans-serif;
+    color: #40544b;
+}
+
+.breadcrumb a:hover {
+    color: #40544b;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row a {
+    font-family: 'Quicksand', sans-serif;
+    color: #40544b;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#team_title,
+#information_title {
+    border-bottom: 1px solid #151e1a;
+}
+
+.fas.fa-arrow-alt-circle-right {
+    font-weight: 100;
+}
+
+.col-lg-auto.col-md-auto.col-sm-12.text-sm-center:hover i {
+    font-weight: 900;
+}
+
+.col-xl-12 {
+    background: #40544b;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.col-md-9 {
+    background: #fff;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.contact-form button {
+    background-color: #f6fffb;
+    font-family: 'Quicksand', sans-serif;
+    border: 1.5px solid #40544b;
+    color: #40544b;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 25px;
+    transition-duration: 0.4s;
+}
+
+.contact-form button:hover {
+    background-color: #40544b;
+    font-weight: normal;
+    border: 2px solid #40544b;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #team_title,
+    #information_title {
+        border-bottom: 1px solid #151e1a;
+        width: 20vh;
+    }
+
+    body {
+        width: 120%;
+    }
+}
+
+#addAlterButton:hover {
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main .container {
+    overflow-x: hidden;
+}

@@ -1,0 +1,191 @@
+.breadcrumb {
+    background-color: white;
+}
+
+.breadcrumb-item.active {
+    color: #151e1a;
+    font-family: 'Quicksand', sans-serif;
+}
+
+li>a {
+    font-family: 'Quicksand', sans-serif;
+    color: #40544b;
+}
+
+.breadcrumb a:hover {
+    color: #40544b;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row a {
+    font-family: 'Quicksand', sans-serif;
+    color: #40544b;
+}
+
+main {
+    width: 120vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main #profile-section label {
+    font-size: 19px;
+    font-weight: 700;
+    color: #40544b;
+}
+
+main #profile-section h5 {
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+#profile_title,
+#addresses_title,
+#payment_title,
+#employees_title,
+#products_title,
+#discounts_title,
+#favorite_title,
+#discounts_title,
+#product_title {
+    border-bottom: 1px solid #151e1a;
+}
+
+#profile .mt-4.col-md-6.col-lg-3 {
+    border-top: 1px solid #151e1a;
+}
+
+h5#productName {
+    width: 50vh;
+    text-align: center;
+}
+
+.badge {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #40544b;
+}
+
+main .modal-footer input {
+    background-color: #f6fffb;
+    font-family: 'Quicksand', sans-serif;
+    border: 1.5px solid #40544b;
+    color: #40544b;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 25px;
+    transition-duration: 0.4s;
+}
+
+main .modal-footer input:hover {
+    background-color: #40544b;
+    font-weight: normal;
+    border: 2px solid #40544b;
+    color: white;
+}
+
+button.btn.btn-secondary {
+    background-color: #f6fffb;
+    font-family: 'Quicksand', sans-serif;
+    border: 1.5px solid #40544b;
+    color: #40544b;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    overflow: visible;
+    border-radius: 3px;
+    letter-spacing: 2px;
+}
+
+.main_menu.dropdown-menu {
+    width: 100%;
+}
+
+main #addAlterButton:hover {
+    color: #40544b;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.col-lg-auto.col-md-auto.col-sm-12.text-sm-right {
+    color: #CC0000
+}
+
+.fas.fa-trash-alt.ml-auto {
+    font-weight: 100;
+}
+
+.fas.fa-arrow-alt-circle-right {
+    font-weight: 100;
+}
+
+.fas.fa-circle:hover {
+    cursor: pointer;
+    color: #5d7b6d;
+}
+
+.fas.fa-circle:active {
+    cursor: pointer;
+    color: #5d7b6d;
+}
+
+.col-lg-auto.col-md-auto.col-sm-6.text-sm-center:hover i {
+    font-weight: 900;
+}
+
+.fas.fa-heart.ml-auto:hover {
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.fas.fa-trash-alt.ml-auto:hover {
+    cursor: pointer;
+    color: #40544b;
+    font-weight: 900;
+}
+
+.fas.fa-exclamation-triangle:hover,
+.fas.fa-check-circle:hover,
+.fas.fa-user-lock:hover,
+#pencil:hover {
+    cursor: pointer;
+    color: #40544b;
+}
+
+div.details span {
+    float: left;
+    clear: left;
+}
+
+@media only screen and (max-width: 600px) {
+
+    main {
+        max-width: 50vh;
+    }
+
+    #profile_title,
+    #addresses_title,
+    #payment_title,
+    #employees_title,
+    #products_title,
+    #discounts_title {
+        border-bottom: 1px solid #151e1a;
+        width: 20vh;
+    }
+
+    body {
+        width: 120%;
+    }
+
+}

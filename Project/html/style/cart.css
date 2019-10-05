@@ -1,0 +1,83 @@
+body {
+    --color1: #f6fffb;
+    --color2: #9effd5;
+    --color3: #a8c1b6;
+    --color4: #40544b;
+    --color5: #151e1a;
+    font-family: 'Quicksand', 'Open Sans', sans-serif
+}
+
+main button.next {
+    background-color: #40544b;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    display: block;
+    transition-duration: 0.4s;
+    min-width: 90px;
+}
+
+main button#back-button {
+    background-color: #f6fffb;
+    font-family: 'Quicksand', sans-serif;
+    border: 1.5px solid #40544b;
+    color: #40544b;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 7px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 25px;
+    transition-duration: 0.4s;
+}
+
+main button#back-button:hover {
+    background-color: #40544b;
+    font-weight: normal;
+    border: 2px solid #40544b;
+}
+
+main button#back-button:hover a {
+    color: white;
+}
+
+main button.next:hover {
+    background-color: #f6fffb;
+    font-weight: 700;
+    border: 1.5px solid #40544b;
+    color: #40544b;
+}
+
+main button.next a {
+    color: white;
+    text-decoration: none;
+}
+
+main button.next:hover a {
+    color: #40544b;
+    text-decoration: none;
+
+}
+
+main .progress-bar {
+    background-color: #40544b
+}
+
+main ul#cart>li>a {
+    text-decoration: none;
+    color: inherit
+}
+
+main ul#cart>li>a:hover {
+    text-decoration: none;
+    color: inherit
+}
+
+main button.back-button a {
+    text-decoration: none;
+    color: var(--color5);
+}

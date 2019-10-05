@@ -1,0 +1,113 @@
+.breadcrumb {
+    background-color: white;
+}
+
+.breadcrumb-item.active {
+    color: #151e1a;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.breadcrumb a:hover {
+    color: #40544b;
+    text-decoration: none;
+}
+
+li>a {
+    font-family: 'Quicksand', sans-serif;
+    color: #40544b;
+}
+
+.custom-range {
+    width: 25vh;
+}
+
+.custom-range::-webkit-slider-thumb {
+    background-color: #40544b;
+}
+
+.custom-range::-moz-range-thumb {
+    background-color: #40544b;
+}
+
+
+.box.d-flex.flex-column.align-items-center h5 {
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 13px;
+    padding-left: 13px;
+    padding-right: 13px;
+    text-align: center;
+    color: #40544b;
+    font-size: 18px;
+}
+
+.box.d-flex.flex-column.align-items-center span {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: #40544b;
+    font-size: 16px;
+}
+
+input.AddToCart {
+    background-color: #f6fffb;
+    font-family: 'Quicksand', sans-serif;
+    border: 1.5px solid #40544b;
+    color: #40544b;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 25px;
+    transition-duration: 0.4s;
+}
+
+input.AddToCart:hover {
+    background-color: #40544b;
+    font-weight: normal;
+    border: 2px solid #40544b;
+    color: white;
+}
+
+.page-link {
+    font-family: 'Quicksand', sans-serif;
+    color: #40544b;
+}
+
+.filters.d-flex.flex-column h5 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #40544b;
+}
+
+.filters.d-flex.flex-column h6 {
+    font-size: 21px;
+    font-weight: 700;
+    color: #40544b;
+}
+.show>.btn-secondary.dropdown-toggle {
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    border: 1.5px solid #40544b;
+    color: #40544b;
+}
+
+div.row#products {
+    border-top: 1px solid #151e1a;
+}
+
+@media only screen and (max-width: 600px) {
+
+    main {
+        max-width: 30vh;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    div.mt-4.col-md-4.col-lg-3 {
+        padding-left: 50px;
+    }
+}

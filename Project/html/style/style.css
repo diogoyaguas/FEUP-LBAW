@@ -1,0 +1,95 @@
+body {
+    --color1: #f6fffb;
+    --color2: #b5e7d1;
+    --color3: #a8c1b6;
+    --color4: #40544b;
+    --color5: #151e1a;
+    font-family: 'Quicksand', 'Open Sans', sans-serif
+}
+
+.img-fluid {
+    max-width: 5rem;
+}
+
+header {
+    border-radius: 2px;
+    box-shadow: 0px 1px 6px #999;
+}
+
+footer {
+    border-radius: 2px;
+    box-shadow: 1px 0px 3px #999;
+
+}
+
+.footer {
+    background-color: var(--color1);
+}
+
+.footer .row li {
+    background-color: inherit;
+    border: none;
+    text-decoration: none;
+}
+
+
+.footer a {
+    color: var(--color4);
+    text-decoration: none;
+}
+
+.footer .row li {
+    padding: 3px 0;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+
+.footer ul.links li>span {
+    padding: 3px 0;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+.footer ul.links li>span:hover {
+    padding: 3px 0;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+.footer ul.links li a i {
+    margin-right: 5px;
+}
+
+.footer ul.links li:hover a i {
+    font-weight: 700;
+}
+
+img.center-block {
+    max-width: 300px;
+    max-height: 350px;
+    padding: 10px;
+}
+.navbar-toggler{
+    border-color: var(--color2)
+
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(158,255,213, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
+}
+
+/*FAQ*/
+.clickable.unbold:hover {
+    cursor: pointer;
+}
+
+.clickable.unbold:hover .fas.fa-circle {
+    cursor: pointer;
+    color: #5d7b6d;
+}
+.clickable.unbold:hover .fas.fa-circle:active {
+    cursor: pointer;
+    color: #5d7b6d;
+}

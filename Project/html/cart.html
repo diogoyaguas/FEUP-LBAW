@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/cart.css">
+  <link rel="stylesheet" type="text/css" href="style/header.css">
+  <link rel="icon" type="image/png" href="assets/logo.png" sizes="32x32" />
+  <script src="link.js" defer> </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+
+
+  <title>Cart</title>
+</head>
+
+<body>
+  <header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container pl-0">
+          <a class="navbar-brand logo_h d-flex align-items-center" href="index.html">
+            <img class="float-left mr-3" src="assets/logo.png" alt="">
+            <h1>aurora</h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav px-5">
+              <li class="nav-item submenu dropdown">
+                <a href="categories.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                  aria-haspopup="true" aria-expanded="false">Clothing</a>
+                <ul class="dropdown-menu float-left">
+                  <h3 class="dropdown-header">Men</h3>
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Tops</a></li>
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Bottoms</a></li>
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Shoes</a></li>
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Accesories</a></li>
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Shop All</a></li>
+                  <h3 class="dropdown-header">Women</h3>
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Tops</a></li>
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Bottoms</a></li>
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Shoes</a></li>
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Accesories</a></li>
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Shop All</a></li>
+                </ul>
+              </li>
+              <li class="nav-item submenu dropdown">
+                <a href="categories.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                  aria-haspopup="true" aria-expanded="false">House-Decor</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Bedroom</a></li>
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Kitchen</a></li>
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Living Room</a></li>
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Outdoor</a></li>
+                </ul>
+              </li>
+              <li class="nav-item submenu dropdown">
+                <a href="categories.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                  aria-haspopup="true" aria-expanded="false">Activities</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Climbing</a></li>
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Hiking</a></li>
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Running</a></li>
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Fishing</a></li>
+                  <li class="nav-item"><a class="nav-link" href="categories.html">Hunting</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul class="nav-shop navbar-nav menu_nav pl-2">
+              <li class="nav-item">
+                <form class="form-inline md-form form-lg">
+                  <input class="form-control form-control-md mr-3 w-75" type="text" placeholder="Search" aria-label="Search">
+                  <i class="fas fa-search" aria-hidden="true"></i>
+                </form>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html">
+                  <h5><i class="fas fa-shopping-cart"></i> </h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Sign In</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="register.html">Register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="cart">
+    <section class="container">
+      <div class="row my-3">
+        <h1 class="my-2"> Checkout </h1>
+      </div>
+      <ul class="nav nav-tabs navbar-expand-md flex-column flex-sm-row" id="cart">
+        <li class="nav-item">
+          <a class="nav-link active" id="address-tab" data-toggle="tab" href="#address" role="tab" aria-controls="Address"
+            aria-selected="true">Address</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" id="payment-tab" data-toggle="tab" href="#payment" role="tab" aria-controls="Payment Method"
+            aria-selected="false">Payment Method</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="Order Review"
+            aria-selected="false">Order Review</a>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="cartContent">
+
+        <div class="tab-pane fade show active" id="address" role="tabpanel" aria-labelledby="address-tab">
+
+          <div class="progress" style="height: 2px;">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+              aria-valuemax="100"></div>
+          </div>
+
+          <div class="my-3">
+            <h4>Invoice</h4>
+          </div>
+
+
+          <form action="#">
+            <div class="row">
+              <div class="form-group col-lg-6 col-xs-12">
+                <label for="FirstName"> First Name </label>
+                <input type="text" class=form-control>
+              </div>
+
+              <div class="form-group col-lg-6">
+                <label for="LastName"> Last Name </label>
+                <input type="text" class=form-control>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-lg-4 col-xs-12">
+                <label for="Email"> Email </label>
+                <input type="email" class=form-control>
+              </div>
+
+              <div class="form-group col-lg-8 col-xs-12">
+                <label for="StreetAdress"> Street Address </label>
+                <input type="text" class=form-control>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-lg-3 col-xs-12">
+                <label for="City"> City </label>
+                <input type="text" class=form-control>
+              </div>
+
+              <div class="form-group col-lg-3 col-xs-12">
+                <label for="ZIPCode"> ZIP Code </label>
+                <input type="text" class=form-control>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="form-group col-lg-3 col-xs-12">
+                <label for="country"> Country </label>
+                <input type="text" class=form-control>
+              </div>
+
+              <div class="form-group col-lg-3 col-xs-12">
+                <label for="country"> Phone Number </label>
+                <input type="tel" class=form-control>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="checkbox" name="shippingAddress" id="differentSAdd" data-toggle="collapse" data-target="#shippingAddress"
+                aria-controls="shippingAddress">
+              <label for="differentSAdd" name="differentSAdd" data-toggle="collapse" data-target="#shippingAddress"
+                aria-controls="shippingAddress">
+                Give a different address for shipping
+              </label>
+            </div>
+
+            <div id="shippingAddress" class="collapse" aria-expanded="false">
+              <div class="my-3">
+                <h4>Shipping Address</h4>
+              </div>
+
+              <div class="row">
+                <div class="form-group col-md-6 col-xs-12 ">
+                  <label for="FirstName"> First Name </label>
+                  <input type="text" class=form-control>
+                </div>
+
+                <div class="form-group col-md-6 col-xs-12">
+                  <label for="LastName"> Last Name </label>
+                  <input type="text" class=form-control>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-4 col-xs-12">
+                  <label for="Email"> Email </label>
+                  <input type="email" class=form-control>
+                </div>
+
+                <div class="form-group col-md-8 col-xs-12">
+                  <label for="StreetAdress"> Street Address </label>
+                  <input type="text" class=form-control>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-3 col-xs-12">
+                  <label for="City"> City </label>
+                  <input type="text" class=form-control>
+                </div>
+
+                <div class="form-group col-md-3 col-xs-12">
+                  <label for="ZIPCode"> ZIP Code </label>
+                  <input type="text" class=form-control>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="form-group col-md-3 col-xs-12">
+                  <label for="country"> Country </label>
+                  <input type="text" class=form-control>
+                </div>
+
+                <div class="form-group col-md-3 col-xs-12">
+                  <label for="country"> Phone Number </label>
+                  <input type="tel" class=form-control>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <button id="addressBtn" type="button" class="btn col-md-6 col-lg-2 offset-md-8 next">
+                <span class="text-justify"> Delivery Method <i class="fas fa-chevron-right pl-2"></i> </span>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="tab-pane fade" id="payment" role="tabpanel" aria-labelledby="payment-tab">
+          <div class="progress" style="height: 2px;">
+            <div class="progress-bar" role="progressbar" style="width: 66%;" aria-valuenow="66" aria-valuemin="0"
+              aria-valuemax="100"></div>
+          </div>
+
+          <form class="row" action="#">
+            <div class="container pt-3">
+              <div class="col-lg-6 col-xs-12">
+
+                <div class="form-group">
+                  <label class="form-label" for="cardNumber"> Card Number </label>
+                  <input class="form-control" type="text" id="cardNumber">
+                </div>
+                <div class="form-group">
+                  <label for="expDate"> Expiration Date </label>
+                  <input id="cardNumber" type="date" class="form-control" placeholder="Your expiration date">
+                </div>
+
+                <div class="form-group">
+                  <label for="ccv"> CCV </label>
+                  <input class="form-control" type="text" id="cardNumber">
+                </div>
+              </div>
+            </div>
+
+            <div class="container-btn pl-5 pt-3">
+                <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
+                <div id="paypal-button-container"></div>
+                <script>paypal.Buttons().render('#paypal-button-container');</script>
+            </div>
+
+          </form>
+
+
+
+          <div class="row">
+            <button type="button" id="back-button" class="btn col-lg-2 offset-md-2 back-button col-xs-2">
+              <a href="#">Back</a>
+            </button>
+            <button id="paymentBtn" type="button" class="btn col-lg-2 offset-md-4 col-xs-2 next">
+              <span class="text-justify">Order Review <i class="fas fa-chevron-right pl-2"></i> </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
+          <div class="progress" style="height: 2px;">
+            <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0"
+              aria-valuemax="100"></div>
+          </div>
+          <table class="table table-responsive-sm">
+            <thead>
+              <tr>
+                <th scope="col">Product</th>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><img class="img-fluid w-25 h-20" src="assets/pants.png" alt="pants"></th>
+                <td class="name">Pants</td>
+
+                <td class="price">32.00€</td>
+                <td class="quantity">2</td>
+                <td class="subtotal">64.00€</td>
+              </tr>
+              <tr>
+                <th scope="row"><img class="img-fluid w-25 h-20" src="assets/jacket.jpg" alt="jacket"></th>
+                <td class="name">Jacket</td>
+
+                <td class="price">26.00€</td>
+                <td class="quantity">1</td>
+                <td class="subtotal">26.00€</td>
+              </tr>
+              <tr>
+                <td colspan="4" class="justify-content-left"> Total</th>
+                <td class="justify-content-right total"> Total2</th>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="row mt-2">
+            <button type="button" id="back-button" class="btn col-lg-2 col-md-3 offset-md-2 back-button">
+              <a href="#">Back</a>
+            </button>
+            <button id="checkoutBtn" type="button" class="btn col-lg-2 col-md-3 offset-md-4 justify-content-center next">
+              <span class="text-justify"> Complete Purchase</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js" defer></script>
+
+  <footer class="footer pt-2 mt-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <h5 class="header">Information</h5>
+          <ul class="list-group links">
+            <li class="list-group-item"> <span><a href="about.html">About Us</a> </span></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h5 class="header">Services</h5>
+          <ul class="list-group links">
+            <li class="list-group-item"> <span></i> <a href="faq.html"> FAQ </a></span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col">
+        </div>
+        <div class="col">
+          <i class="far fa-copyright"></i> <span>copyrigth 2019 aurora. All rigths reserved </span> <br>
+        </div>
+        <div class="col text-center">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

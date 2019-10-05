@@ -1,0 +1,153 @@
+header {
+  border-radius: 2px;
+  box-shadow: 0px 1px 6px #999;
+}
+
+footer {
+  border-radius: 2px;
+  box-shadow: 1px 0px 3px #999;
+}
+
+.video1 .btn,
+.video2 .btn {
+  border-color: #9effd5;
+}
+
+div.saleproducts,
+div.featuredproducts,
+div.companybreak {
+  font-family: 'QuickSand', sans-serif;
+}
+
+div.saleproducts h5,
+div.featuredproducts h5 {
+  text-align: center;
+  padding-top: 13px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.slide {
+  margin-top: 5em;
+  border-radius: 2px;
+  box-shadow: 1px 3px 3px #999;
+}
+
+a.btn.btn-outline-light:hover {
+  color: #40544b;
+}
+
+input.AddToCart {
+  background-color: #f6fffb;
+  font-family: 'Quicksand', sans-serif;
+  border: 1.5px solid #40544b;
+  color: #40544b;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  display: block;
+  margin-top: 25px;
+  transition-duration: 0.4s;
+}
+
+input.AddToCart:hover {
+  background-color: #40544b;
+  font-weight: normal;
+  border: 2px solid #40544b;
+  color: white;
+}
+
+.carousel-item {
+  height: 12vh;
+  background: no-repeat center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'QuickSand', sans-serif;
+}
+
+.video1 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video1 .video-block {
+  height: 50vh;
+  overflow: hidden;
+}
+
+.video1 .container {
+  position: relative;
+  bottom: 10vh;
+  z-index: 2;
+}
+
+.video1 video {
+  position: absolute;
+  height: auto;
+  width: 100%;
+  z-index: -1;
+}
+
+.video1 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.video2 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video2 .video-block {
+  height: 50vh;
+  overflow: hidden;
+}
+
+.video2 .container {
+  position: relative;
+  bottom: 10vh;
+  z-index: 2;
+}
+
+.video2 video {
+  position: absolute;
+  height: auto;
+  margin-top: 75px;
+  width: 100%;
+  z-index: -1;
+}
+
+.video2 .overlay {
+  margin-top: 75px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 81%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  video {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+
+  video {
+    display: none;
+  }
+}
